@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *  main - Prints an output on the screen using puts
+ *  main - Entry point
+ *  Description: Entry point of our program
  */
 int main(void)
 {

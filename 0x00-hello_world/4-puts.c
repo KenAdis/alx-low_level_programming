@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *  main - Entry point
- *  Description: Entry point of our program
+ * main - Entry point
+(* a blank line
+ * Description: Longer description of the function)?
  */
 int main(void)
 {

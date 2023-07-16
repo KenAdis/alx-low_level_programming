@@ -5,6 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char lower = 'a';
@@ -15,7 +16,6 @@ int main(void)
 		putchar(lower);
 		lower++;
 	}
-	
 	while (capital <= 'Z')
 	{
 		putchar(capital);

@@ -15,12 +15,12 @@ int main(void)
 		putchar(lower);
 		lower++;
 	}
-	while (capital <= 'z')
+	
+	while (capital <= 'Z')
 	{
 		putchar(capital);
 		capital++;
 	}
 	putchar('\n');
-
 	return (0);
 }

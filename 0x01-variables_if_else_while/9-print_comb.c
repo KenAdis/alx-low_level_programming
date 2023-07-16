@@ -10,13 +10,16 @@ int main(void)
 {
 	int n = 48;
 
-	while (n <= 56)
-	{
+	do {
 		putchar(n);
-		putchar(',');
-		putchar(' ');
+		if (n < 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		n++;
-	}
-	putchar(n);
+	} while (n <= 57);
+
+	putchar('\n');
 	return (0);
 }

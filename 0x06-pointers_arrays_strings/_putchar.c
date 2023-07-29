@@ -2,7 +2,7 @@
 
 /**
  * _putchar - Prints out the given parameter
- * @name: The parameter to be printed out
+ * @c: The parameter to be printed out
  *
  * Return: Void
  */

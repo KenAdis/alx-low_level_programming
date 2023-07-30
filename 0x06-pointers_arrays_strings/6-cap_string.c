@@ -8,14 +8,14 @@
 char *cap_string(char *str)
 {
 	int i, j;
-	char *n = " ,;.!?(){}\n\t\"";
+	char *n = " ,;.!?(){}\n\t\" ";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[0] >= 97 && str[0] <= 122)
 			str[0] = str[0] - 32;
 
-		for (j = 0; j < 13; j++)
+		for (j = 0; j < 14; j++)
 		{
 			if (str[i] == n[j])
 			{
